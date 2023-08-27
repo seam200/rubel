@@ -1,0 +1,101 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.hero {
+	width: 400px;
+	height: 400px;
+	bottom: 200px;
+	background-image: url(./image/helo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 400px;
+	position: relative;
+}
+.gf {
+	height: 150px;
+	width: 150px;
+	transition: 0.5s;
+	position: absolute;
+}
+.gf:first-child {
+	bottom: -50px;
+	right: -50px;
+	background-image: url(./image/apu\ biswas.jpg);
+	background-size: cover;
+}
+.gf:last-child {
+	bottom: -50px;
+	left: -50px;
+	background-image: url(./image/bubli.jpg);
+	background-size: cover;
+}
+.gf:nth-child(2) {
+	top: -50px;
+	right: -50px;
+	background-image: url(./image/kareena.jpg);
+	background-size: cover;
+}
+.gf:nth-child(3) {
+	top: -50px;
+	left: -50px;
+	background-image: url(./image/pori.jpg);
+	background-size: cover;
+}
+.hero:hover .gf:first-child {
+	bottom: 300px;
+	right: 300px;
+}
+.hero:hover .gf:last-child {
+	bottom: 300px;
+	left: 300px;
+}
+.hero:hover .gf:nth-child(2) {
+	top: 300px;
+	right: 300px;
+}
+.hero:hover .gf:nth-child(3) {
+	top: 300px;
+	left: 300px;
+}
+.hero:hover .gf {
+	transform: rotate(720deg);
+}
+.ami {
+	width: 200px;
+	height: 200px;
+	background: #000;
+	position: relative;
+	top: 300px;
+	left: 20px;
+	z-index: 1000;
+}
+.tumi {
+	width: 200px;
+	height: 200px;
+	background: brown;
+	position: relative;
+	left: 70px;
+	z-index: 800;
+}
+.tara {
+	width: 200px;
+	height: 200px;
+	background: green;
+	position: relative;
+	top: 300px;
+	left: 40px;
+	z-index: 800;
+}
+.mala {
+	width: 200px;
+	height: 200px;
+	background: red;
+	position: relative;
+	left: 80px;
+	z-index: 1000;
+}

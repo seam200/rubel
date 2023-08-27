@@ -1,0 +1,36 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.monir {
+	color: black;
+	background: rebeccapurple;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+.manik {
+	color: blue;
+	background: whitesmoke;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+.mora {
+	color: aquamarine;
+	background: red;
+	text-align: center;
+	width: auto;
+	height: auto;
+}
+.meta {
+	color: aliceblue;
+	background: green;
+	text-align: center;
+	width: auto;
+	height: auto;
+    /* */
+}

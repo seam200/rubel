@@ -1,0 +1,15 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'mona';
+	src: url(../day-25/font/Anton/Anton-Regular.ttf);
+}
+.mona {
+	font-family: kona;
+}

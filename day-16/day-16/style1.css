@@ -1,0 +1,40 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mala {
+	background-color: aqua;
+}
+
+.lalu {
+	color: black;
+	background-color: chocolate;
+	text-align: center;
+	width: 100px;
+	height: 80px;
+	align-items: center;
+	margin-top: 300px;
+	margin-left: 500px;
+}
+.kalu {
+	color: red;
+	background-color: darkgray;
+	text-align: center;
+	width: 100px;
+	height: 80px;
+	align-items: center;
+	margin-left: 500px;
+	box-shadow: 1px 2px aqua;
+}
+.calu {
+	color: darkgreen;
+	background-color: darksalmon;
+	text-align: center;
+	width: 100px;
+	height: 150px;
+	align-items: center;
+	margin-left: 500px;
+}

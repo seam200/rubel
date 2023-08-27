@@ -1,0 +1,40 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.rubel {
+	margin: 0;
+	height: 100;
+	text-align: center;
+	color: black;
+	background: wheat;
+}
+.rubel.p {
+	margin: 20;
+	top: auto;
+}
+.mira {
+	margin: 0;
+	height: 100;
+	text-align: right;
+	color: blue;
+	background: black;
+}
+.mira.p {
+	margin: 20;
+	top: auto;
+}
+.tara {
+	margin: 0;
+	height: 100;
+	text-align: left;
+	color: black;
+	background: gray;
+}
+.tara.p {
+	margin: 20;
+	top: auto;
+}

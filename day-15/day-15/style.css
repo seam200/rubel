@@ -1,0 +1,23 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.div {
+	width: 500px;
+	height: 500px;
+}
+.img {
+	background-image: url(./komolasundori.jpg);
+	background-repeat: no-repeat;
+	width: 800px;
+	height: 800px;
+	background-size: cover;
+	margin-right: 250px;
+	margin-top: 50px;
+	padding: 500px;
+	padding-top: 500px;
+}

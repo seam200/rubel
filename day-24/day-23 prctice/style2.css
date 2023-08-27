@@ -1,0 +1,37 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.kaka {
+	width: 100%;
+	height: 100vh;
+	background: plum;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.mama {
+	width: 30%;
+	height: 20%;
+	margin: 20px;
+	background: radial-gradient(#fff, #000, blue);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: fuchsia;
+	border: 5px solid black;
+	border-radius: 8px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.mama:hover {
+	background: linear-gradient(to right, #000, #fff);
+	color: yellow;
+}
+.kaka:hover {
+	background: aqua;
+}

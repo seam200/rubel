@@ -1,0 +1,30 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.div {
+	background: wheat;
+}
+.ami {
+	background: greenyellow;
+	width: 500px;
+	height: 500px;
+}
+.tumi {
+	background: hotpink;
+	width: 500px;
+	height: 500px;
+}
+.rumi {
+	background: aquamarine;
+	width: 250px;
+	height: 500px;
+}
+.chumi {
+	background: antiquewhite;
+	width: 250px;
+	height: 500px;
+}

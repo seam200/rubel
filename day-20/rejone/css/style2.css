@@ -1,0 +1,64 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.raju {
+	width: 500px;
+	height: 500px;
+	background-image: url(../image/rejone.jpg);
+	background-size: cover;
+	bottom: 200px;
+	margin: auto;
+	top: 150px;
+	display: flex;
+	position: relative;
+}
+.gf {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	transition: 0.5s;
+}
+.gf:first-child {
+	bottom: -50px;
+	right: -50px;
+	background-image: url(../image/bubli.jpg);
+	background-size: cover;
+}
+.gf:last-child {
+	bottom: -50px;
+	left: -50px;
+	background-image: url(../image/kareena.jpg);
+	background-size: cover;
+}
+.gf:nth-child(2) {
+	top: -50px;
+	right: -50px;
+	background-image: url(../image/naiyka.jpg);
+	background-size: cover;
+}
+.gf:nth-child(3) {
+	top: -50px;
+	left: -50px;
+	background-image: url(../image/porimony.jpg);
+	background-size: cover;
+}
+.raju:hover .gf:first-child {
+	bottom: 400px;
+	right: 400px;
+}
+.raju:hover .gf:last-child {
+	bottom: 400px;
+	left: 400px;
+}
+.raju:hover .gf:nth-child(2) {
+	top: 400px;
+	right: 400px;
+}
+.raju:hover .gf:nth-child(3) {
+	top: 400px;
+	left: 400px;
+}

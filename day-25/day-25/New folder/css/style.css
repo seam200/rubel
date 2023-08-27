@@ -1,0 +1,29 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: url(../image/cursor.png) auto;
+}
+.ab {
+	width: 1200px;
+	height: 300px;
+	margin: 20px;
+	border: 1px solid black;
+	box-shadow: 0 0 10px black, 0 0 40px rgb(10, 245, 10) inset;
+	display: grid;
+	border-radius: 20px;
+	grid-template-columns: 1fr 1fr;
+	z-index: 10;
+}
+.ab > div:first-child,
+.ab > div:last-child {
+	background: linear-gradient(to top right, #fff, #07e607, #fff);
+	z-index: -10;
+}
+.ab > div:nth-child(2),
+.ab > div:nth-child(3) {
+	background: linear-gradient(to top left, #fff, rgb(26, 201, 26), #fff);
+	z-index: -10;
+}

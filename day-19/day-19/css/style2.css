@@ -1,0 +1,41 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.moti {
+	width: 700px;
+	height: 400px;
+	background: #fff;
+	display: flex;
+	margin: auto;
+	margin-top: 200px;
+	position: relative;
+	border-style: solid;
+	border-color: black;
+}
+.moti::before {
+	content: '';
+	width: 100%;
+	height: 100px;
+	background: aqua;
+	position: absolute;
+}
+.moti::after {
+	content: '';
+	width: 100%;
+	height: 100px;
+	background: aqua;
+	position: absolute;
+	top: 300px;
+}
+.pagla {
+	width: 150px;
+	height: 150px;
+	background: yellow;
+	border-radius: 50%;
+	margin: auto;
+	overflow: hidden;
+}

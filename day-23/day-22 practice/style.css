@@ -1,0 +1,67 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.tara {
+	width: 200px;
+	height: 200px;
+	background: green;
+	margin-top: 100px;
+	margin-left: 75px;
+	z-index: 100;
+}
+.mala {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin-top: -100px;
+	margin-left: 150px;
+	z-index: 500;
+}
+.sada {
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	margin-top: -100px;
+	margin-left: 300px;
+	z-index: 900;
+}
+.kala {
+	width: 200px;
+	height: 200px;
+	background: black;
+	margin-top: -100px;
+	margin-left: 400px;
+	z-index: 2000;
+}
+
+.dada {
+	width: 100%;
+	height: 100vh;
+	background: green;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.nana {
+	width: 30%;
+	height: 20%;
+	margin: 20px;
+	background: aquamarine;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: chocolate;
+	border: 5px solid black;
+	border-radius: 8px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.nana:hover {
+	background: red;
+	color: deeppink;
+}

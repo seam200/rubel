@@ -1,0 +1,39 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.rana {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin-left: 75px;
+	margin-top: 100px;
+	z-index: 100;
+}
+.rabby {
+	width: 200px;
+	height: 200px;
+	background: green;
+	margin-left: 150px;
+	margin-top: -100px;
+	z-index: 500;
+}
+.roton {
+	width: 200px;
+	height: 200px;
+	background: orange;
+	margin-left: 300px;
+	margin-top: -100px;
+	z-index: 900;
+}
+.raju {
+	width: 200px;
+	height: 200px;
+	background: mediumslateblue;
+	margin-left: 400px;
+	margin-top: -100px;
+	z-index: 2000;
+}

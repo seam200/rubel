@@ -1,0 +1,111 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>From</title>
+	</head>
+	<body>
+		<h3>
+			<form action="GET">
+				<label for="text">Your name</label>
+				<input
+					type="text"
+					name="yname"
+					id="yname"
+					placeholder="enter your name"
+					required
+				/>
+				<br />
+				<label for="text">Your Father's name</label>
+				<input
+					type="text"
+					name="fname"
+					id="fname"
+					placeholder="Enter your fname"
+					required
+				/><br />
+				<label for="text">Your Mother's name</label>
+				<input
+					type="text"
+					name="mname"
+					id="mname"
+					placeholder="Enter your mname"
+					required
+				/>
+				<br />
+				<label for="dob">date of birth</label>
+				<input
+					type="datetime"
+					name="dob"
+					id="dob"
+					required
+				/><br />
+				<label for="text">Enter Your Number</label>
+				<input
+					type="number"
+					name="ynumber"
+					id="ynumber"
+					placeholder="Enter your number"
+					required
+					minlength="11"
+				/><br />
+				<label for="email">Enter Your Gamil</label>
+				<input
+					type="email"
+					name="yemail"
+					id="yemail"
+					placeholder="enter your gmail"
+					required
+				/>
+				<br />
+				<label for="address">Enter your address</label>
+				<input
+					type="text"
+					name="yaddress"
+					id="address"
+					placeholder="enter your address"
+					required
+				/><br />
+				<label for="gender"> Gender:</label>
+				<input
+					type="radio"
+					name="gender"
+					id="Male"
+				/>Male <br />
+				<input
+					type="radio"
+					name="gender"
+					id="Female"
+				/>Female
+				<input
+					type="radio"
+					name="gender"
+					id="others"
+				/>tiktoker <br /><br />
+				<label for="Country">Your Country</label>
+				<select
+					name="Country"
+					id="Country"
+				>
+					<option id="Sl">-------Select Your Country----</option>
+					<option id="bd">Bangladesh</option>
+					<option id="in">India</option>
+					<option id="pk">Pakistan</option>
+					<option id="np">Nepal</option>
+					<option id="vt">Vutan</option>
+					<option id="cn">China</option>
+					<option id="vn">Vietnam</option>
+				</select>
+				<br />
+				<br />
+				<button>Submit</button>
+			</form>
+		</h3>
+	</body>
+</html>

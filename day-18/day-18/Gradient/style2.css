@@ -1,0 +1,13 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.rahim {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to top right, #000, #fff, blue);
+	/* background: radial-gradient(white, black, blue); */
+}

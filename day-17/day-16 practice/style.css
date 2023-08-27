@@ -1,0 +1,31 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.boni {
+	color: aqua;
+	text-align: center;
+	width: 500px;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+.banti {
+	color: black;
+	text-align: center;
+	width: 500px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 500px;
+}
+.tara {
+	color: cornflowerblue;
+	text-align: center;
+	width: 500px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 500px;
+}

@@ -1,0 +1,36 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.nana {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(navy, green, black);
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.dada {
+	width: 30%;
+	height: 20%;
+	margin: 20px;
+	background: aqua;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: blue;
+	border: 5px solid black;
+	font-style: italic normal bolder 20px wheat;
+	box-shadow: 20px solid green;
+	border-radius: 8px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.dada:hover {
+	background: red;
+	color: chartreuse;
+}

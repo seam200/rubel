@@ -1,0 +1,29 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: url(../img/cursor.png), auto;
+}
+.bg {
+	width: 1200px;
+	height: 300px;
+	margin: 20px;
+	border: 1px solid black;
+	box-sizing: 0 0 10px, 0 0 40px, #0f0 inset;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	z-index: 10;
+	border-radius: 20px;
+}
+.bg > div:first-child,
+.bg > div:last-child {
+	background: linear-gradient(to top right, blue, white, blue);
+	z-index: -10;
+}
+.bg > div:nth-child(2),
+.bg > div:nth-child(3) {
+	background: linear-gradient(to top left, blue, white, blue);
+	z-index: -10;
+}

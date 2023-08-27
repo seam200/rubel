@@ -1,0 +1,25 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.bang {
+	color: red;
+}
+.bang::before {
+	content: ' English ';
+}
+.bang::after {
+	content: ' Urdu';
+}
+.india {
+	color: blue;
+}
+.india::before {
+	content: 'Bongo Boltu ';
+}
+.india::after {
+	content: ' Nagorik';
+}

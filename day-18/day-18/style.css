@@ -1,0 +1,94 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.tara {
+	width: 1000px;
+	height: 600px;
+	/* background-size: 700px auto;
+	background-position: 100px 100px; */
+	display: flex;
+	flex-direction: column;
+	/* margin-top: 200px; */
+	margin-left: 150px;
+}
+.tara::before {
+	content: 'We are Bangladeshi Rohinga';
+	width: max-content;
+	height: max-content;
+	padding: 20px;
+	border: 2px solid white;
+	margin: auto auto 10px;
+}
+.mala {
+	width: 300px;
+	height: 200px;
+	margin: 0 auto auto;
+	background: green;
+	display: flex;
+}
+.kala {
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.france {
+	width: 500px;
+	height: 400px;
+	background: white;
+	border-style: solid;
+	border-color: greenyellow;
+	box-shadow: greenyellow;
+	margin: 20px;
+	position: relative;
+}
+
+.france::before {
+	content: 'I Fonni';
+	color: aliceblue;
+	background: #000;
+	position: absolute;
+	width: 33%;
+	height: 100%;
+}
+.france::after {
+	content: 'i Rohinga';
+	background: red;
+	width: 33%;
+	height: 100%;
+	position: absolute;
+	right: 0%;
+}
+
+.france2 {
+	width: 600px;
+	height: 500px;
+	background: white;
+	border-style: solid;
+	border-color: black;
+	margin: 20px;
+	position: relative;
+}
+.france2::before {
+	content: '';
+	color: aliceblue;
+	background: black;
+	position: absolute;
+	width: 33%;
+	height: 100%;
+}
+.france2::after {
+	content: '';
+	background: red;
+	width: 33%;
+	height: 100%;
+	position: absolute;
+	right: 0%;
+}

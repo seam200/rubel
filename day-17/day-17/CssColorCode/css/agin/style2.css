@@ -1,0 +1,57 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.tara {
+	width: 100%;
+	height: 100vh;
+	background-image: url(./neymar-removebg-preview.png);
+	background-color: darksalmon;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: 700px auto;
+	display: flex;
+	flex-direction: column;
+}
+.tara::before {
+	content: 'we are pakna';
+	width: max-content;
+	height: max-content;
+	padding: 20px;
+	border: 2px solid black;
+	margin: auto auto 10px;
+}
+.mala {
+	width: 300px;
+	height: 200px;
+	margin: 0 auto auto;
+	background: green;
+	display: flex;
+}
+.kala {
+	width: 250px;
+	height: 150px;
+	margin: auto;
+	background: orange;
+	clip-path: polygon(0% 50%, 50% 0%, 100% 50%, 50% 100%);
+	display: flex;
+}
+.sada {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	border-radius: 50%;
+	margin: auto;
+	overflow: hidden;
+}
+.mora {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 10px solid #fff;
+	margin-top: 40px;
+	margin-left: -75px;
+}

@@ -1,0 +1,29 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.div {
+	width: 500px;
+	height: 500px;
+}
+.body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 800px;
+	height: 800px;
+}
+.img {
+	background-image: url(./maliga.jpg);
+
+	width: 640px;
+	height: 380px;
+	background-size: cover;
+	margin-left: 350px;
+	margin-top: 50px;
+	margin-right: 50px;
+	padding: 20px;
+	padding-top: 15px;
+}

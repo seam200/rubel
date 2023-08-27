@@ -1,0 +1,22 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.Gan {
+	background-color: aqua;
+	color: blue;
+}
+.Gitter {
+	background-color: burlywood;
+	background-size: cover;
+	color: #000;
+	width: 100;
+	text-align: center;
+	margin: 10px;
+	box-shadow: 50;
+	text-shadow: white;
+	font-size: 100px;
+}

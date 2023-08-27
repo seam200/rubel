@@ -1,0 +1,39 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: url(../image/cursor.png), auto;
+}
+.bd {
+	width: 1200px;
+	height: 300px;
+	margin: 20px;
+	border: 1px solid #000;
+	box-shadow: 0 0 10px #000, 0 0 40px #0f0 inset;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	z-index: 10;
+	border-radius: 20px;
+}
+.bd > div:first-child,
+.bd > div:last-child {
+	background: linear-gradient(
+		to top right,
+		rgb(0, 17, 255),
+		white,
+		rgb(0, 17, 255)
+	);
+	z-index: -10;
+}
+.bd > div:nth-child(2),
+.bd > div:nth-child(3) {
+	background: linear-gradient(
+		to top left,
+		rgb(0, 17, 255),
+		white,
+		rgb(0, 17, 255)
+	);
+	z-index: -10;
+}

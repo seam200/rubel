@@ -1,0 +1,23 @@
+/** @format */
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap'); */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: 'Kuttar Bacca';
+	/* font-family: 'Anton', sans-serif; */
+	src: url(../font/Anton-Regular.ttf);
+}
+@font-face {
+	font-family: 'Futfute Sundor';
+	src: url(../font/Anton-Regular.ttf);
+	/* font-family: 'Anton', sans-serif; */
+}
+.kutta {
+	font-family: 'Kuttar Bacca';
+}
+.baccha {
+	font-family: 'Futfute Sundor';
+}

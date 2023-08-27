@@ -1,0 +1,31 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.div {
+	background: cadetblue;
+}
+.tara {
+	background: brown;
+	height: 500px;
+	width: 500px;
+}
+.kala {
+	background: rgb(63, 20, 220);
+	height: 500px;
+	width: 500px;
+}
+.mala {
+	background: chartreuse;
+	height: 500px;
+	width: 250px;
+}
+
+.sada {
+	background: green;
+	height: 500px;
+	width: 250px;
+}

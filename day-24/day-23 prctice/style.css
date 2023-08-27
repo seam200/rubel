@@ -1,0 +1,39 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.rana {
+	width: 200px;
+	height: 200px;
+	background: red;
+	margin-top: 100px;
+	margin-left: 90px;
+	z-index: 600;
+}
+.kana {
+	width: 200px;
+	height: 200px;
+	background: green;
+	margin-top: -100px;
+	margin-left: 180px;
+	z-index: 800;
+}
+.tara {
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	margin-top: -100px;
+	margin-left: 270px;
+	z-index: 1400;
+}
+.nana {
+	width: 200px;
+	height: 200px;
+	background: black;
+	margin-top: -100px;
+	margin-left: 360px;
+	z-index: 2000;
+}

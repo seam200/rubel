@@ -1,0 +1,51 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.body {
+	background-image: url(./img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sea {
+	width: 400px;
+	height: 230px;
+	background-image: url(./img/sea.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 200px;
+	margin-left: 300px;
+	position: relative;
+}
+.w1 {
+	width: 200px;
+	height: 1000px;
+	background-image: url(./img/w1.jpg);
+	background-repeat: no-repeat;
+	right: 0px;
+	position: absolute;
+	transition: 1s;
+}
+.sea:hover .w1 {
+	right: -180px;
+	position: absolute;
+}
+.w2 {
+	width: 200px;
+	height: 600px;
+	background-image: url(./img/w2.jpg);
+	background-repeat: no-repeat;
+	left: 0;
+	position: absolute;
+	transition: 1s;
+}
+.sea:hover .w2 {
+	left: -180px;
+	position: absolute;
+}
+.body:hover {
+	background-image: url(./img/bg1.jpg);
+}

@@ -1,0 +1,40 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.rana {
+	width: 100%;
+	height: 100vh;
+	/* background: chocolate; */
+	background: aqua;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.kana {
+	width: 30%;
+	height: 20%;
+	margin: 20px;
+	/* background-image: url(./img/natural.jpg); */
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	border: 5px solid black;
+	border-radius: 8px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.kana.photo {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	background-size: cover;
+}
+.kana.photo:hover {
+	background-image: url(./img/natural2.png);
+}

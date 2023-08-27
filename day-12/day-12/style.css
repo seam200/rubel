@@ -1,0 +1,42 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.rubel {
+	margin: 0;
+	height: 100px;
+	text-align: center;
+	color: lightgreen;
+	background: darkblue;
+}
+.rubel.p {
+	margin: 20px;
+	top: auto;
+}
+.abcd {
+	margin: 0;
+	height: 20px;
+	text-align: center;
+	color: wheat;
+	background: gray;
+}
+.abcd.p {
+	margin: 20px;
+	top: auto;
+}
+
+.efgh {
+	margin: 0;
+	height: 50px;
+	text-align: center;
+	color: black;
+	background: orange;
+}
+.efgh.p {
+	margin: 20px;
+	top: auto;
+}

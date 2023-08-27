@@ -1,0 +1,35 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.div {
+	background: darkgray;
+}
+
+.mira {
+	background: green;
+	width: 500px;
+	height: 500px;
+	color: black;
+}
+.tara {
+	background: red;
+	width: 500px;
+	height: 500px;
+	color: black;
+}
+.sada {
+	background: black;
+	width: 250px;
+	height: 500px;
+	color: darkgray;
+}
+.kala {
+	background: blue;
+	width: 250px;
+	height: 500px;
+	color: black;
+}

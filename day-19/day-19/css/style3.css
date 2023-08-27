@@ -1,0 +1,45 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.jara {
+	width: 700px;
+	height: 400px;
+	background: white;
+	margin-top: 200px;
+	margin: auto;
+	display: flex;
+	margin-top: 200px;
+	border-color: gold;
+	border-style: solid;
+	position: relative;
+}
+.jara::before {
+	content: '';
+	width: 100%;
+	height: 120px;
+	background: aqua;
+	position: absolute;
+}
+.jara::after {
+	content: '';
+	width: 100%;
+	height: 120px;
+	background: aqua;
+	position: absolute;
+	top: 274px;
+}
+.kara {
+	width: 150px;
+	height: 150px;
+	background: yellow;
+	border-radius: 50%;
+	margin: auto;
+	overflow: hidden;
+}
+.kara:hover {
+	background: #000;
+}

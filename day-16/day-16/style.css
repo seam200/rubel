@@ -1,0 +1,41 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.gfghf {
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	margin-left: 600px;
+	margin-top: 200px;
+	align-items: center;
+	background: #dde0d9;
+}
+
+.tara {
+	background-color: orange;
+	color: white;
+	text-align: center;
+	display: inline;
+	width: 100px;
+	height: 120px;
+}
+.mala {
+	width: 100px;
+	height: 100px;
+	background-color: burlywood;
+	color: rgb(11, 246, 108);
+	background-size: cover;
+	display: inline;
+}
+.mala.p {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+}
+.mala.p1 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 10px;
+}
