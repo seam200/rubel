@@ -1,0 +1,112 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mass {
+	width: 500px;
+	height: 500px;
+	background-image: url(./img/mass.jpg);
+	background-size: cover;
+	bottom: 200px;
+	margin: auto;
+	top: 150px;
+	display: flex;
+	position: relative;
+}
+.fan {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	transition: 0.5s;
+}
+.fan:first-child {
+	bottom: -50px;
+	right: -50px;
+	background-image: url(./img/shakib.jpg);
+	background-size: cover;
+}
+.fan:last-child {
+	bottom: 140px;
+	left: -50px;
+	background-image: url(./img/tamim.jpg);
+	background-size: cover;
+}
+.fan:nth-child(2) {
+	top: 70px;
+	right: -50px;
+	background-image: url(./img/musfiqur.jpg);
+	background-size: cover;
+}
+.fan:nth-child(3) {
+	top: 180px;
+	left: -50px;
+	background-image: url(./img/mehedi.jpg);
+	background-size: cover;
+}
+.fan:nth-child(4) {
+	top: -50px;
+	right: -50px;
+	background-image: url(./img/nazmul.jpg);
+	background-size: cover;
+}
+.fan:nth-child(5) {
+	top: -50px;
+	left: -50px;
+	background-image: url(./img/taskin.jpg);
+	background-size: cover;
+}
+.fan:nth-child(6) {
+	top: 180px;
+	right: -50px;
+	background-image: url(../img/afif.jpg);
+	background-size: cover;
+}
+.fan:nth-child(7) {
+	top: 450px;
+	left: 15px;
+	background-image: url(./img/ebadot.jpg);
+	background-size: cover;
+}
+.fan:nth-child(8) {
+	top: -30px;
+	right: 300px;
+	background-image: url(./img/Liton.jpg);
+	background-size: over;
+}
+.fan:nth-child(9) {
+	top: 300px;
+	left: 150px;
+	background-image: url(./img/mahmudulla.jpg);
+	background-size: cover;
+}
+.mass:hover .fan:first-child {
+	bottom: 400px;
+	right: 450px;
+}
+.mass:hover .fan:last-child {
+	bottom: 400px;
+	left: 450px;
+}
+.mass:hover .fan:nth-child(2) {
+	top: 400px;
+	right: 450px;
+}
+.mass:hover .fan:nth-child(3) {
+	top: 400px;
+	left: 450px;
+}
+.mass:hover .fan:nth-child(4) {
+	bottom: 200px;
+	right: 450px;
+}
+.mass:hover .fan:nth-child(5) {
+	top: -2px;
+	left: 450px;
+}
+.mass:hover.fan:nth-child(6) {
+	top: 20px;
+	right: 300px;
+}

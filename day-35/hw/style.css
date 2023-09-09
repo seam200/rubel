@@ -1,0 +1,51 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	cursor: url(./img/cursor.png), auto;
+}
+.leo {
+	width: 720px;
+	height: 520px;
+	background: wheat;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	border: 1px solid black;
+	padding: 20px;
+	margin: 75px auto;
+}
+.leo > div:first-child {
+	background-image: url(./img2/messi_prev_ui-removebg-preview.png);
+	background-repeat: no-repeat;
+	background-size: auto 500px;
+	background-position: center;
+	/* margin-top: 10px; */
+	/* background: red; */
+}
+.bel {
+	text-align: center;
+	color: black;
+	margin-bottom: 15px;
+}
+.pra {
+	font-size: 20px;
+	color: black;
+	margin-bottom: 15px;
+}
+.btn {
+	background: black;
+	border-radius: 15px;
+	box-shadow: 3px 3px 7px mediumblue;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+.btn:hover {
+	background: red;
+	text-decoration: none;
+}

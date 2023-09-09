@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.france {
+  height: 300px;
+  width: 400px;
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  position: relative;
+  margin: 10px;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+.france::before {
+  content: "France";
+  color: red;
+  background: navy;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 33%;
+}
+.france::after {
+  content: "";
+  background: red;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 33%;
+}
+.france:hover::before {
+  background: green;
+  content: "Italy";
+  color: orange;
+}

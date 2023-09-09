@@ -1,0 +1,37 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.tara {
+	width: 1000px;
+	height: 400px;
+	background: white;
+	margin-top: 20px;
+	margin-left: 500px;
+	display: flex;
+	top: 20px;
+	border-color: 1px solid black;
+	box-sizing: orange;
+}
+.tara::before {
+	content: 'France';
+	color: aqua;
+	text-align: center;
+	width: 200px;
+	height: 100%;
+	background: navy;
+}
+.tara::after {
+	content: '';
+	width: 200px;
+	height: 100%;
+	background: red;
+	margin-left: 200px;
+}
+.tara:hover::before {
+	background: green;
+	content: 'Italy';
+}

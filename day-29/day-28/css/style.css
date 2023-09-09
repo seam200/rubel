@@ -1,0 +1,32 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.tara {
+	width: 200px;
+	height: 400px;
+	background: rgb(255, 255, 255);
+	display: flex;
+	margin: 20px;
+	top: 20px;
+}
+.tara::before {
+	content: '';
+	width: 200px;
+	height: 400px;
+	margin: 20px;
+	background: navy;
+}
+.tara::after {
+	content: '';
+	width: 200px;
+	height: 400px;
+	background: red;
+	margin: 20px;
+}
+.tara:hover::before {
+	background: green;
+}

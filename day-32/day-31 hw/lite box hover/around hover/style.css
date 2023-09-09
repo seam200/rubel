@@ -1,0 +1,87 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mass {
+	width: 500px;
+	height: 500px;
+	background-image: url(./img/mass.jpg);
+	background-size: cover;
+	bottom: 200px;
+	margin: auto;
+	top: 150px;
+	display: flex;
+	position: relative;
+}
+.fan {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	transition: 0.5s;
+}
+.fan:first-child {
+	bottom: -50px;
+	right: -50px;
+	background-image: url(./img/shakib.jpg);
+	background-size: cover;
+}
+.fan:last-child {
+	bottom: -50px;
+	left: -50px;
+	background-image: url(./img/tamim.jpg);
+	background-size: cover;
+}
+.fan:nth-child(2) {
+	top: -50px;
+	right: -50px;
+	background-image: url(./img/musfiqur.jpg);
+	background-size: cover;
+}
+.fan:nth-child(3) {
+	top: -5px;
+	left: -50px;
+	background-image: url(./img/mehedi.jpg);
+	background-size: cover;
+}
+.fan:nth-child(4) {
+	top: 150px;
+	right: -50px;
+	background-image: url(./img/nazmul.jpg);
+	background-size: cover;
+}
+.fan:nth-child(5) {
+	top: 150px;
+	left: -50px;
+	background-image: url(./img/taskin.jpg);
+	background-size: cover;
+}
+.fan:nth-child(6) {
+	bottom: 80px;
+	right: 100px;
+	background-image: url(./img/);
+}
+.mass:hover .fan:first-child {
+	bottom: 400px;
+	right: 400px;
+}
+.mass:hover .fan:last-child {
+	bottom: 400px;
+	left: 400px;
+}
+.mass:hover .fan:nth-child(2) {
+	top: 400px;
+	right: 400px;
+}
+.mass:hover .fan:nth-child(3) {
+	top: 400px;
+	left: 400px;
+}
+.mass:hover .fan:nth-child(4) {
+	right: 400px;
+}
+.mass:hover .fan:nth-child(5) {
+	left: 400px;
+}
