@@ -1,0 +1,51 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.tara,
+.rana,
+.mora,
+.nana,
+.cana {
+	width: 500px;
+	height: 500px;
+	background: green;
+	display: inline-block;
+	margin: 10px;
+	box-shadow: 20px 20px 20px darkblue;
+}
+
+.tara {
+	transform: translateX(300px) translateY(300px) scale(120%) skewX(20deg)
+		skewY(20deg) rotate(45deg);
+}
+.rana {
+	transform: scale(80%);
+	position: relative;
+}
+.mora {
+	transform: scale(50%) skew(45deg);
+}
+.nana {
+	transform: rotate(45deg) scale(50%);
+}
+.cana {
+	transform: matrix(0.5, 0, 0, 0.5, 100, 50);
+}
+.rana::before {
+	content: '580';
+	width: 70px;
+	background: red;
+	color: white;
+	text-align: center;
+	position: absolute;
+	padding: 10px 0;
+	top: 0;
+	right: 10px;
+	font-size: 26px;
+	border-radius: 20px;
+	transform: translateY(-50%);
+}
