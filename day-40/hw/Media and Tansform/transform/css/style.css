@@ -1,0 +1,62 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.rana,
+.sana,
+.tara,
+.kaka,
+.nana,
+.mama,
+.dada,
+.caca {
+	width: 200px;
+	height: 200px;
+	background: gold;
+	display: inline-block;
+	margin: 10px;
+	box-shadow: 20px 20px 20px navy;
+}
+.rana {
+	transform: translateX(300px) translateY(300px) scaleX(20deg) skewX(20deg)
+		scaleY(20deg) rotate(45deg);
+}
+.sana {
+	transform: scaleY(50%);
+	position: relative;
+}
+.tara {
+	transform: scale(90%) skew(45deg);
+}
+.kaka {
+	transform: rotate(45deg) scale(50%);
+}
+.nana {
+	transform: skewX(50%) scale(30deg);
+}
+.mama {
+	transform: rotate(20deg) scale(80%);
+}
+.dada {
+	transform: skewX(40deg) rotateY(10deg);
+}
+.caca {
+	transform: skewY(60deg) scale(50%);
+}
+.rana::before {
+	content: '570';
+	width: 50px;
+	background: red;
+	color: beige;
+	text-align: center;
+	position: absolute;
+	padding: 10px 0;
+	top: 100px;
+	left: 400px;
+	font-size: 30px;
+	border-radius: 20px;
+	transform: translate(-50%);
+}

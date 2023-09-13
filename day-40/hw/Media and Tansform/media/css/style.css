@@ -1,0 +1,47 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.nana {
+	display: grid;
+	background: forestgreen;
+	color: aqua;
+}
+.nana > div {
+	border-radius: 6px;
+	background: brown;
+	padding: 12px;
+}
+@media only screen and(max-width:620px) {
+	.nana {
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 4px;
+		padding: 4px;
+	}
+}
+@media only screen and(max-width:620px) and(max-width:1280px) {
+	.nana {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 8px;
+		padding: 8px;
+	}
+}
+@media only screen and(nax-width:1280px) {
+}
+.nana {
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 12px;
+	padding: 12px;
+}
+
+@media only screen and(max-width: 1280px) {
+	.nana {
+		grid-template-columns: repeat(8, 1fr);
+		grid-gap: 16px;
+		padding: 16px;
+	}
+}
