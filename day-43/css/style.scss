@@ -1,0 +1,103 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.dada {
+	width: 100%;
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.dada > .baba {
+	width: 400px;
+	height: 400px;
+	border: 1px solid green;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: auto;
+}
+.dada > .baba > .ami {
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	margin: auto;
+}
+.dada > .baba > .ami > .chaid {
+	width: 200px;
+	height: 200px;
+	border: 1px solid rgb(5, 62, 251);
+	margin: auto;
+	display: block;
+	position: relative;
+}
+.dada > .baba > .ami > .chaid::before {
+	content: '';
+	width: 50px;
+	background: red;
+	height: 50px;
+	position: absolute;
+	top: -30px;
+	left: -30px;
+	-webkit-transition: 1s;
+	transition: 1s;
+}
+.dada > .baba > .ami > .chaid:hover {
+	background: orange;
+}
+.dada > .baba > .ami > .chaid:hover::before {
+	top: 170px;
+	left: 170px;
+}
+// }
+// .dada > .baba > .ami > .ch1 {
+// 	width: 50px;
+// 	height: 50px;
+// 	// background: blueviolet;
+// 	margin: auto;
+// 	display: block;
+// 	position: relative;
+// }
+// .dada > .baba > .ami > .ch1::after {
+// 	content: '';
+// 	width: 50px;
+// 	background: red;
+// 	height: 50px;
+// 	position: absolute;
+// 	top: -230px;
+// 	right: -74px;
+// 	-webkit-transition: 1s;
+// 	transition: 1s;
+// }
+// .dada > .baba > .ami > .ch1:hover {
+// 	// background: rgb(21, 24, 234);
+// }
+// .dada > .baba > .ami > .ch1:hover::after {
+// 	top: 170px;
+// 	right: 170px;
+// }
+.dada > .baba > .ami > .chaid::after {
+	content: '';
+	width: 50px;
+	height: 50px;
+	background: red;
+	position: absolute;
+	top: -30px;
+	right: -30px;
+	-webkit-transition: 1a;
+	transition: 1s;
+}
+.dada > .baba > .ami > .chaid:hover {
+	background: wheat;
+}
+.dada > .baba > .ami > .chaid:hover::before {
+	top: 170px;
+	right: 170px;
+}
