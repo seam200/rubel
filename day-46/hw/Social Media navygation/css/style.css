@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sun {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(to right, black, rgb(193, 143, 50), rgb(116, 33, 155));
+}
+.sun > .moon {
+  margin: auto;
+  display: flex;
+  list-style: none;
+}
+.sun > .moon > li {
+  width: 80px;
+  height: 80px;
+  margin: 0 4px;
+  border: 5px solid rgb(221, 240, 10);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background: #8fc700;
+}
+.sun > .moon > li > a {
+  margin-top: 10px;
+  line-height: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+}
+.sun > .moon > li::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: 1s;
+  z-index: -10;
+}
+.sun > .moon > li:hover > a {
+  color: rgb(219, 19, 126);
+}
+.sun > .moon > li:hover::before {
+  top: 0%;
+}/*# sourceMappingURL=style.css.map */

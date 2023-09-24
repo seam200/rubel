@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  width: 750px;
+  margin: 20px auto;
+  list-style: none;
+  display: flex;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  li {
+    width: 100%;
+    position: relative;
+    a {
+      text-decoration: none;
+      line-height: 50px;
+      color: azure;
+      display: block;
+    }
+    &:hover {
+      background: aqua;
+      > ul {
+        display: block;
+      }
+    }
+    ul {
+      list-style: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: rgb(0, 0, 0);
+      width: 100%;
+      display: none;
+      ul {
+        top: 0;
+        left: 100%;
+      }
+    }
+  }
+}
