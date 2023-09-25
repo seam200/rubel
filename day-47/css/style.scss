@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.div {
+  width: 750px;
+  text-align: center;
+  display: flex;
+  margin: 20px;
+  list-style: none;
+  background: #000;
+  margin-left: 250px;
+  li {
+    width: 100%;
+    position: relative;
+    a {
+      text-decoration: none;
+      display: block;
+      line-height: 50px;
+      color: wheat;
+    }
+    &:hover {
+      background: yellowgreen;
+      > ul {
+        display: block;
+      }
+    }
+    ul {
+      list-style: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      display: none;
+      width: 100%;
+      background: #000;
+      ul {
+        top: 0;
+        left: 100%;
+      }
+    }
+  }
+}
