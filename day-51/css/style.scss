@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav {
+  width: 850px;
+  display: flex;
+  list-style: none;
+  background: #000;
+  li {
+    width: 100%;
+    position: relative;
+    a {
+      line-height: 50px;
+      display: none;
+      color: white;
+      text-decoration: none;
+    }
+    &:hover {
+      background: tomato;
+      > ul {
+        display: block;
+      }
+    }
+    ul {
+      width: 100%;
+      display: block;
+      list-style: none;
+      top: 100%;
+      left: 0;
+      position: absolute;
+      background: mediumspringgreen;
+      ul {
+        top: 0;
+        left: 100%;
+      }
+    }
+  }
+}
