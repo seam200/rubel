@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Roboto Condensed", sans-serif;
+      }
+      .carousel-caption {
+        background: rgba(0, 0, 0, 0.6);
+        height: max-content;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: max-content;
+        left: 50%;
+        padding: 20px 40px;
+        border-radius: 10%/50%;
+        text-shadow: #00f;
+      }
+      .carousel-indicators [data-bs-target] {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+      }
+      .myNav {
+        z-index: 100;
+        background: rgba(0, 0, 0, 0.6);
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark position-absolute w-100 myNav"
+    >
+      <div class="container-fluid">
+        <a href="" class="navbar-brand">
+          <img
+            src="./img/logo_02-removebg-preview.png"
+            width="200px"
+            height="200px"
+            alt=""
+            class="img-fluid"
+            style="max-width: 150px"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContene"
+          aria-controls="navbarSupportedContene"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContene">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href="" class="nav-link active" aria-current="page">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link active">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href=""
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Our Team
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="" class="dropdown-item">Our Ceo</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item">Our MD</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a href="" class="dropdown-item">Our Employee</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-item">Our Staff</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a href="" class="dropdown-item">Our Clients</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link active"
+                ><i class="fa-solid fa-user"></i>My Account</a
+              >
+            </li>
+          </ul>
+          <form class="">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="User name"
+                aria-label="username"
+                aria-describedby="basic-addon1"
+              />
+              <span class="input-group-text" id="basic-addon1"
+                ><i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end  -->
+    <!-- slider start -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel-slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/slide1.jpg" class="d-block w-300" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First Slide lable.</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide2.jpg" class="d-block w-300" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second Slide lable.</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide3.jpg" class="d-block w-300" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third Slide lable.</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide4.jpg" class="d-block w-300" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Fouth Slide lable.</h5>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">next</span>
+      </button>
+    </div>
+    <!-- slide end -->
+
+    <!-- our tam start -->
+
+    <div class="container">
+      <div class="row md-5">
+        <div class="col-md-12 display-4 text-center pt-4 pb-2">Our Team</div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="carad">
+            <div class="card-header">
+              <img src="./img/rejone.jpg" class="card-img" alt="" />
+              <h2>
+                Rejone
+                <small>(Our CEO)</small>
+              </h2>
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Best Gamer In Bangla</li>
+                <li class="list-group-item">Best Fakibaz In The Family.</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button
+                class="btn btn-dark"
+                data-bs-toggle="model"
+                data-bs-target="#exampleModel"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="carad">
+            <div class="card-header">
+              <img src="./img/rejone.jpg" class="card-img" alt="" />
+              <h2>
+                Rejone
+                <small>(Our CEO)</small>
+              </h2>
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Best Gamer In Bangla</li>
+                <li class="list-group-item">Best Fakibaz In The Family.</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button
+                class="btn btn-dark"
+                data-bs-toggle="model"
+                data-bs-target="#exampleModel"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="carad">
+            <div class="card-header">
+              <img src="./img/rejone.jpg" class="card-img" alt="" />
+              <h2>
+                Rejone
+                <small>(Our CEO)</small>
+              </h2>
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Best Gamer In Bangla</li>
+                <li class="list-group-item">Best Fakibaz In The Family.</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button
+                class="btn btn-dark"
+                data-bs-toggle="model"
+                data-bs-target="#exampleModel"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="carad">
+            <div class="card-header">
+              <img src="./img/rejone.jpg" class="card-img" alt="" />
+              <h2>
+                Rejone
+                <small>(Our CEO)</small>
+              </h2>
+            </div>
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Best Gamer In Bangla</li>
+                <li class="list-group-item">Best Fakibaz In The Family.</li>
+              </ul>
+            </div>
+            <div class="card-footer">
+              <button
+                class="btn btn-dark"
+                data-bs-toggle="model"
+                data-bs-target="#exampleModel"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- our team end -->
+      <!-- Our  products start -->
+
+      <div class="row bg-primary">
+        <div class="col-md-12 text-center display-6 text-white pt-4">
+          Our Products
+        </div>
+      </div>
+      <div class="row bg-primary pb-3">
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./img/products.jpg" class="card-img" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 15</h5>
+              <p class="card-text">
+                price;
+                <span class="text-muted text-decoration-line-through"
+                  >BDT 2,50,000</span
+                >
+                BDT25,000
+              </p>
+              <button class="btn btn-sm btn-primary">Buy Now</button>
+              <button class="btn btn-sm btn-success">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./img/products.jpg" class="card-img" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 15</h5>
+              <p class="card-text">
+                price;
+                <span class="text-muted text-decoration-line-through"
+                  >BDT 2,50,000</span
+                >
+                BDT25,000
+              </p>
+              <button class="btn btn-sm btn-primary">Buy Now</button>
+              <button class="btn btn-sm btn-success">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./img/products.jpg" class="card-img" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 15</h5>
+              <p class="card-text">
+                price;
+                <span class="text-muted text-decoration-line-through"
+                  >BDT 2,50,000</span
+                >
+                BDT25,000
+              </p>
+              <button class="btn btn-sm btn-primary">Buy Now</button>
+              <button class="btn btn-sm btn-success">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <br />
+
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./img/products.jpg" class="card-img" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 15</h5>
+              <p class="card-text">
+                price;
+                <span class="text-muted text-decoration-line-through"
+                  >BDT 2,50,000</span
+                >
+                BDT25,000
+              </p>
+              <button class="btn btn-sm btn-primary">Buy Now</button>
+              <button class="btn btn-sm btn-success">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./img/products.jpg" class="card-img" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 15</h5>
+              <p class="card-text">
+                price;
+                <span class="text-muted text-decoration-line-through"
+                  >BDT 2,50,000</span
+                >
+                BDT25,000
+              </p>
+              <button class="btn btn-sm btn-primary">Buy Now</button>
+              <button class="btn btn-sm btn-success">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./img/products.jpg" class="card-img" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 15</h5>
+              <p class="card-text">
+                price;
+                <span class="text-muted text-decoration-line-through"
+                  >BDT 2,50,000</span
+                >
+                BDT25,000
+              </p>
+              <button class="btn btn-sm btn-primary">Buy Now</button>
+              <button class="btn btn-sm btn-success">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./img/products.jpg" class="card-img" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 15</h5>
+              <p class="card-text">
+                price;
+                <span class="text-muted text-decoration-line-through"
+                  >BDT 2,50,000</span
+                >
+                BDT25,000
+              </p>
+              <button class="btn btn-sm btn-primary">Buy Now</button>
+              <button class="btn btn-sm btn-success">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <img src="./img/products.jpg" class="card-img" alt="" />
+            <div class="card-body">
+              <h5 class="card-title">Iphone 15</h5>
+              <p class="card-text">
+                price;
+                <span class="text-muted text-decoration-line-through"
+                  >BDT 2,50,000</span
+                >
+                BDT25,000
+              </p>
+              <button class="btn btn-sm btn-primary">Buy Now</button>
+              <button class="btn btn-sm btn-success">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- our productsend  -->
+
+      <!-- blog post start -->
+
+      <div class="row">
+        <div class="col-md-12 text-center display-6 p-4">Latest News.</div>
+      </div>
+      <!-- blog end -->
+    </div>
+
+    <!-- model start -->
+    <div
+      class="modal fade"
+      id="exampleModel"
+      tabindex="-1"
+      aria-labelledby="exampleModelLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModelLabel">Modal Title</h1>
+
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">...</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">
+              close
+            </button>
+            <button type="button" class="btn-primary">save change</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer start -->
+   <footer className="contrast-footer footer-dark footer-shadow-dark p-5">
+      <div className="container d-flex flex-column">
+        <div className="row">
+          <div className="col-md-6">
+            <p>
+              <div className=" d-flex ">
+                <h2
+                  style='font-weight: bold'
+                  className="d-inline font-weight-bold text-uppercase me-1"
+                >
+                  My Company
+                </h2>
+                A creative agency
+              </div>
+              <br />
+              <a href="mdrubelh7213@gmail.com" className="text-success font-bold mb-2">
+                Click to contact us at devwares
+              </a>
+              <div className="d-flex flex-column">
+                <span className="d-flex align-items-center my-1">
+                  <span
+                    className=" me-2 bg-success"
+                    style="border-radius: 10px; width:10px; height:10px"
+                  >
+                  <span>01786739588</span>
+                </span>
+                <span className="d-flex align-items-center">
+                  <span
+                    className=" me-2 bg-success"
+                    style="border-radius: 10px; width:10px; height:10px"
+                  >
+                  <span>01786739588</span>
+                </span>
+              </div>
+              <br />
+              Pagla,Narayangonj.
+            </p>
+          </div>
+          <div className="col-md-6">
+            <div className="d-flex flex-row">
+              <div className="mx-2 text-uppercase">Facebook</div>
+              <div className="mx-2 text-uppercase">+</div>
+              <div className="mx-2 text-uppercase">Instagram</div>
+              <div className="mx-2 text-uppercase">+</div>
+              <div className="mx-2 text-uppercase">Dribbble</div>
+            </div>
+          </div>
+        </div>
+        <small className="text-center mt-5 footer-copyright">
+          &copy; Rubel, 2023. All rights reserved.
+        </small>
+      </div>
+    </footer>
+  </body>
+</html>
