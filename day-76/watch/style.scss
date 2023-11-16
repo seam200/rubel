@@ -1,0 +1,46 @@
+body {
+  background: url("../img/rain.gif");
+  background-size: cover;
+}
+.main {
+  background: url("../img/neymer.png") no-repeat bottom right;
+  > div {
+    background: linear-gradient(rgba(255, 255, 255, 0.5)), url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.argText {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  background: url("../img/bg.jpg");
+  background-size: 100% 100%;
+  background-clip: text;
+  color: transparent;
+  line-height: 48px;
+  margin: 0;
+}
+.brazil {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  background: url("../img/bg.jpg");
+  background-size: 100% 100%;
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+}
+.dhaka {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  background: url("../img/bg.jpg");
+  background-size: 100% 100%;
+  background-clip: text;
+  color: transparent;
+  margin: 0;
+}
