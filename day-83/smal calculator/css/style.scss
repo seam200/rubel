@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mona {
+  background: orange;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  display: flex;
+  width: 200px;
+  margin-left: 400px;
+}
+.tara {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.rana {
+  height: 200px;
+}
